@@ -1,0 +1,27 @@
+name: xai
+
+# conda env create -f environment.yml
+# conda env update --name xai --file environment.yml --prune
+
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyterlab
+  - scikit-learn>=0.24.0
+  - graphviz
+  - ipywidgets
+  - xgboost
+  - shap
+  - pytorch
+  - h5py
+  - tensorflow
+  - pip:
+    - interpret
+    - innvestigate
+    - theano
+    - torch
+    - cntk
+
